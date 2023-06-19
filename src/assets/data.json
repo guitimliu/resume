@@ -1,0 +1,62 @@
+{
+  "name": "VITO",
+  "avatar": "/src/assets/avatar.png",
+  "title": "RESUME",
+  "desc": "I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create high-quality products.",
+  "information": {
+    "title": "Vito Evans",
+    "list": {
+      "address": "456 Walnut Avenue, Someville, USA",
+      "tel": "+1 123 456 7890",
+      "email": "info@hexschool.com",
+      "website": "www.infohexschool.com"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      {
+        "date": "2014-2018",
+        "content": "Bachelor of Science in Business Administration, University of California, Los Angeles"
+      },
+      {
+        "date": "2012-2014",
+        "content": "Associate of Arts in Graphic Design, San Francisco State University"
+      },
+      {
+        "date": "2008-2012",
+        "content": "High School Diploma, Lincoln High School"
+      }
+    ]
+  },
+  "work": {
+    "title": "Work",
+    "list": [
+      {
+       "date": "2018-2021",
+       "content": "Marketing Manager, ABC Company"
+      },
+      {
+       "date": "2016-2018",
+       "content": "Sales Associate, XYZ Corporation"
+      },
+      {
+       "date": "2014-2016",
+       "content": "Customer Service Representative, QRS Inc."
+      }
+     ]
+  },
+  "awards": {
+    "title": "Awards",
+    "list": [
+      "Best in Show Award, National Advertising Awards, 2020",
+      "Honorable Mention, International Design Competition, 2019",
+      "People's Choice Award, Local Art Exhibition, 2018"
+    ]
+  },
+  "socialLink": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "line": "https://line.me/zh-hant/"
+  }
+}
