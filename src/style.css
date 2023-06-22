@@ -47,14 +47,19 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+/* 預設樣式 */
+
+body {
+	line-height: 1.5;
+	font-family: 'Castoro' ,serif;
+}
+
 /* 通用類別 */
 
 .container {
   max-width: 1282px;
   padding: 0 9px;
   margin: auto;
-}
-
-.hidden {
-  display: none;
 }

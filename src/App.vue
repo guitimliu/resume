@@ -6,15 +6,19 @@ import data from './assets/data.json'
 const informationList = [
   {
     content: data.information.list.address,
+    link: `https://www.google.com/maps/search/${data.information.list.address}`,
   },
   {
     content: data.information.list.tel,
+    link: `tel:${data.information.list.tel}`,
   },
   {
     content: data.information.list.email,
+    link: `mailto:${data.information.list.email}`,
   },
   {
     content: data.information.list.website,
+    link: `https://${data.information.list.website}`,
   },
 ];
 
@@ -27,9 +31,8 @@ const awards = data.awards.list.map((item) => {
 
 <template>
   <div class="home">
-    <h1 v-if="data.name || data.title" class="hidden">{{ data.name }} {{ data.title }}</h1>
     <div class="container">
-      <p class="home__title" v-if="data.name" v-text="data.name" />
+      <h1 class="home__title" v-if="data.name" v-text="data.name" />
       <!-- <img class="home__avatar" :src="data.avatar" :alt="data.name"> -->
       <img class="home__avatar" src="./assets/avatar.png" :alt="data.name">
       <p class="home__title" v-if="data.title" v-text="data.title" />
@@ -59,7 +62,6 @@ const awards = data.awards.list.map((item) => {
 .home {
   &__title {
     font-size: 192px;
-    line-height: 1.5;
 
     &:nth-child(3) {
       text-align: right;
@@ -80,7 +82,6 @@ const awards = data.awards.list.map((item) => {
 
     &__text {
       font-size: 32px;
-      line-height: 1.5;
       width: 50%;
       margin-left: auto;
     }
