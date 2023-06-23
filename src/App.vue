@@ -63,7 +63,7 @@ const awards = data.awards.list.map((item) => {
   &__title {
     font-size: 192px;
 
-    &:nth-child(3) {
+    &:nth-of-type(2) {
       text-align: right;
     }
   }
